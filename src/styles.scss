@@ -12,3 +12,33 @@ app-root {
   width: 100%;
   height: 100%;
 }
+
+
+.section-wrapper {
+  max-width: 90%;
+  padding: 30px;
+  margin: 0 auto 10px auto;
+  background: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition: all .25s ease;
+
+  @media only screen and (max-width: 600px) {
+    max-width: 95%;
+  }
+
+  h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+  }
+
+  h3 {
+    font-size: 25px;
+    font-weight: 300;
+    opacity: 0.75;
+    border-left: 1px dotted black;
+    padding-left: 10px;
+    margin-bottom: 30px;
+  }
+}
