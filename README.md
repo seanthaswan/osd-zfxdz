@@ -1,27 +1,28 @@
-# NewNgScssProject
+# Zaria Forman: Drawings that Show the Beauty and Fragility of Earth.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+> Showcasing large-scale and photorealistic pastel drawings with OpenSeadraon.
 
-## Development server
+## Technologies
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- HTML
+- CSS
+- JavaScript
+- Angular
+- [OpenSeadragon](https://openseadragon.github.io/)
+- (Soon to be) Hosted on Glitch!
 
-## Code scaffolding
+### About
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+An interactive showcase of Zaria Forman's large-scale and photorealistic pastel drawings to explore the beauty and fragility of the earth.
 
-## Build
+### Background
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+My favorite projects that I've contributed to were related to art in some fashion. Wishing to continuing that trend, I reached out to my friend Zaria, who's an amazingly talented artist and golden soul to see about collaborating on a project that encourages a different type of interaction with her drawings. Zaria's photorealistic drawings are riddled with intricacies, nooks, and crannies and is the perfect use case for DeepZoom imaging tools like the OpenSeadragon library.
 
-## Running unit tests
+OpenSeadragon is one of those projects that make you want to find _ANY_ reason to use it. Early last year I developed an interactive gallery for Katsushika Hokusai's famous "Thirty-Six View of Mt. Fuji" woodblock prints and was very happy with the development experience. I hope to create something as magical as the Thirty-Six Views working with Zaria and her awe-inspiring drawings.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Sources
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Artist Bio: [Zaria Forman](https://www.zariaforman.com)
+Front Page Hero Image: [Evermaven](https://evermaven.com/highlight-zaria-forman-2/)
+High-Res Collection: [Zaria Forman](https://www.zariaforman.com)
