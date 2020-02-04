@@ -1,0 +1,15 @@
+<h2 id="gal">Gallery</h2>
+<h3 class="hero-header">
+  <span class="left-quote">“</span>A Beautiful Melting World is Captured in Hyperrealistic
+  Detail<span class="right-quote">”</span>
+</h3>
+<div class="tiles">
+  <div class="tile" *ngFor="let drawing of drawings">
+    <div class="top" [ngStyle]="drawing.imgStyles"></div>
+    <div class="bottom">
+      <h4>{{ drawing.title }}</h4>
+      <p>{{ drawing.coodinates }}</p>
+      <p>{{ drawing.date }}</p>
+    </div>
+  </div>
+</div>
