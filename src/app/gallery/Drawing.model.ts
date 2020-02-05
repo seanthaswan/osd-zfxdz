@@ -16,7 +16,7 @@ export class Drawing {
     this.imgPath = imgPath;
     this.imgStyles = {
       background: `url(${this.imgPath}) center center no-repeat`,
-      backgroundSize: "cover"
+      backgroundSize: "150%"
     };
   }
 }

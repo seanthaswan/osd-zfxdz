@@ -8,7 +8,19 @@
     grid-template-rows: auto auto;
   }
 
-  .left {}
+  .left {
+
+    .first-letter {
+      color: rgb(29, 117, 156);
+      float: left;
+      font-family: Georgia;
+      font-size: 75px;
+      line-height: 60px;
+      padding-top: 4px;
+      padding-right: 8px;
+      padding-left: 3px;
+    }
+  }
 
   .right {
     padding: 0 30px;

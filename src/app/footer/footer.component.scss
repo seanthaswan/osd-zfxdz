@@ -7,8 +7,13 @@
   color: white;
   height: 250px;
 
-  img {
-    filter: invert(.95);
-    width: 100px;
-  }
+}
+
+img {
+  filter: invert(.95);
+  width: 100px;
+}
+
+.website-link {
+  color: white;
 }

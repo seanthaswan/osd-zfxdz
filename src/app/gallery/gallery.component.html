@@ -3,13 +3,22 @@
   <span class="left-quote">“</span>A Beautiful Melting World is Captured in
   Hyperrealistic Detail<span class="right-quote">”</span>
 </h3>
+<p>
+  Through DeepZoom Imaging Zaria Forman's incredibly detailed pastel drawings
+  are
+</p>
 <div class="tiles">
-  <div class="tile" *ngFor="let drawing of drawings">
+  <div class="tile lifted-round" *ngFor="let drawing of drawings">
     <div class="top" [ngStyle]="drawing.imgStyles"></div>
     <div class="bottom">
-      <h4>{{ drawing.title }}</h4>
-      <p>{{ drawing.coordinates }}</p>
-      <p>{{ drawing.date }}</p>
+      <div class="name-date-container">
+        <h4 class="title">{{ drawing.title }}</h4>
+        <p class="date">{{ drawing.date }}</p>
+      </div>
+      <p class="coordinates">{{ drawing.coordinates }}</p>
+      <button class="open-dzi-icon-container better">
+        <img src="../../assets/open-dzi.svg" alt="" class="open-dzi-icon" />
+      </button>
     </div>
   </div>
 </div>
