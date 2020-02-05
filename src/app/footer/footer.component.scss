@@ -1,0 +1,14 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgba(45, 45, 45, );
+  color: white;
+  height: 250px;
+
+  img {
+    filter: invert(.95);
+    width: 100px;
+  }
+}
