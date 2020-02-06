@@ -54,3 +54,8 @@ app-root {
     outline-offset: .15em;
   }
 }
+
+.not-displayed {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

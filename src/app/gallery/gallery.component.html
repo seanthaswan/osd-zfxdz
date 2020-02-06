@@ -3,9 +3,12 @@
   <span class="left-quote">“</span>A Beautiful Melting World is Captured in
   Hyperrealistic Detail<span class="right-quote">”</span>
 </h3>
-<p>
-  Through DeepZoom Imaging Zaria Forman's incredibly detailed pastel drawings
-  are
+<p class="deep-zoom-text">
+  Deep Zoom Images (DZI) allow a greater degree of freedom and interacitivity
+  for artwork on the web. A marriage of art and tech, OpenSeadragon can take a
+  DZI and apply buttery-smooth panning and zooming for an unparalleled viewing
+  experience. Zaria's pastel drawings invite your eye to follow the nooks and
+  crannies, click the magnifying glass to explore one of the pieces below.
 </p>
 <div class="tiles">
   <div class="tile lifted-round" *ngFor="let drawing of drawings">
@@ -16,9 +19,58 @@
         <p class="date">{{ drawing.date }}</p>
       </div>
       <p class="coordinates">{{ drawing.coordinates }}</p>
-      <button class="open-dzi-icon-container better">
+      <button
+        class="open-dzi-icon-container better"
+        (click)="handleOpenDziButtonClick($event)"
+      >
         <img src="../../assets/open-dzi.svg" alt="" class="open-dzi-icon" />
       </button>
     </div>
   </div>
+</div>
+
+<div class="osd-viewer not-displayed" id="openseadragon">
+  <div class="controls">
+    <button
+      class="controls-button osd-back-button"
+      (click)="handleOsdBackButtonClick($event)"
+    ></button>
+    <div
+      class="controls-button"
+      id="osd-home-button"
+      title="Go home"
+      style="display: inline-block; position: relative;"
+    ></div>
+    <div
+      class="controls-button"
+      id="osd-zoom-in-button"
+      title="Zoom in"
+      style="display: inline-block; position: relative;"
+    ></div>
+    <div
+      class="controls-button"
+      id="osd-zoom-out-button"
+      title="Zoom out"
+      style="display: inline-block; position: relative;"
+    ></div>
+    <div
+      class="controls-button"
+      id="osd-full-screen-button"
+      title="Toggle full page"
+      style="display: inline-block; position: relative;"
+    ></div>
+  </div>
+  <div class="controls-info-container not-displayed">
+    <div class="controls-info-modal">
+      <div class="control-info-source">
+        <p>All images Used with permission</p>
+        <p>&copy; Zaria Forman</p>
+      </div>
+    </div>
+  </div>
+  <div class="content-blocker"></div>
+  <div
+    class="controls-button source-info-button"
+    (click)="handleOsdInfoButtonClick()"
+  ></div>
 </div>

@@ -1,5 +1,5 @@
 {
-  "name": "new-ng-scss-project",
+  "name": "OSD-ZFxDZ",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
     "express": "^4.17.1",
+    "openseadragon": "^2.4.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
